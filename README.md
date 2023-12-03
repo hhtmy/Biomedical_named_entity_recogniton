@@ -12,15 +12,21 @@ biomedical corpus.
 <img width="517" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/03f4e178-a3bb-421a-84d7-cbf352432281">
 
  DATA USED
+ 
 ● BC5CDR - 1500 PubMed articles 
 ○ 4409 chemicals
 ○ 5818 diseases
 ○ 3116 chemical-disease interactions
+
 ● CHEMPROT - 1820 PubMed articles
+
 ○ Chemical-protein interactions annotated by domain experts
 ○ Used in the BioCreative VI text mining chemical-protein interactions shared task.
 ○ Contains entities such as Chemical , GENE
+
 DATA FORMATS
+<img width="635" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/cd864867-b662-4958-b23c-8c7d5dd89e43">
+<img width="673" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/7177e950-66cb-4af7-a5cc-bf1f3b3f23a5">
 
 BIOBERT - Bidirectional Encoder Representations from Transformers for 
 Biomedical Text Mining
@@ -32,24 +38,14 @@ large-scale biomedical corpora.
 ● BioBERT largely outperforms BERT and previous state-of art models
 ● BioBERT significantly outperforms them on biomedical text mining tasks such as NER , RE 
 and QA
-Data 
-preprocessing of 
-CDR and chemprot
-Sentence 
-segmentation Tokenization
-Raw text 
-corpus
-MODEL PIPELINE
-Token 
-Classification 
-model using 
-BioBERT
-Training and fine 
-tuning with 
-Pytorch Lightning
-Prediction
-PREDICTIONS
-RESULTS
+
+<img width="713" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/4664e466-5af2-4e03-86b0-5d161621ebee">
+
+<img width="668" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/1feb10e4-f953-49e2-99a9-c32d07166f6c">
+
+<img width="665" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/304509cb-3e1e-44bf-a5a0-23e09f374fde">
+
+
 The obtained F1 score for one epoch is approximately 80%
  CONCLUSION
 ● We have successfully built a generalised model with approximately 80% F1 score for the 
