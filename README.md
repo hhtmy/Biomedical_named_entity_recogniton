@@ -25,7 +25,11 @@ biomedical corpus.
 ○ Contains entities such as Chemical , GENE
 
 DATA FORMATS
+
+
 <img width="635" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/cd864867-b662-4958-b23c-8c7d5dd89e43">
+
+
 <img width="673" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/7177e950-66cb-4af7-a5cc-bf1f3b3f23a5">
 
 BIOBERT - Bidirectional Encoder Representations from Transformers for 
@@ -43,11 +47,16 @@ and QA
 
 <img width="668" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/1feb10e4-f953-49e2-99a9-c32d07166f6c">
 
+RESULTS
+
 <img width="665" alt="image" src="https://github.com/hhtmy/Biomedical_named_entity_recogniton/assets/126352630/304509cb-3e1e-44bf-a5a0-23e09f374fde">
 
 
 The obtained F1 score for one epoch is approximately 80%
+
+
  CONCLUSION
+ 
 ● We have successfully built a generalised model with approximately 80% F1 score for the 
 prediction of chemical, disease and gene in the research articles.
 ● We can attain more accuracy if we train the model on more epochs with high GPU 
